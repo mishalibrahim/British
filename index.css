@@ -99,9 +99,10 @@ body{
         justify-content: space-evenly;
     }
   }
+  /* jabbar */
   @media screen and (max-width: 768px) {
     .nav .nav_end{
-        width:70px;
+        width:70px;  
         display: flex;
         justify-content: space-evenly;
     }
