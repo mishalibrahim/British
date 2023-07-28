@@ -18,7 +18,9 @@ body{
 .top-span{
     float: right;
 }
-
+.ad_first{
+  background: linear-gradient(to right,#ED1C24, #0A2569);
+}
 
 /* navbar */
 
@@ -163,7 +165,7 @@ body{
   display: flex;
   padding:10% 8%;
 }
-.second_main .first_section,.second_section{
+.second_main .first_section{
   display: inline-block;
   width:50%
 }
@@ -242,54 +244,21 @@ body{
   align-items: center;
 }
 /* second section  */
- .second_section .section_imageCircle{
-  margin-left: 120px;
-  height: 75%;
-  width: 75%;
-  margin-top: 50px;
+
+.showcase_image{
+  display:flex
 
 }
-.second_section .section_imageBlack{
-  position: absolute;
-  width: 294px;
-  top: 1%;
-  left: -12%;
 
+.second_section{
+  display: inline-block;
+  width:50%;
 }
-.second_section .section_imageWhite{
-  position: absolute;
-  bottom: 0px;
-  width:200px;
-  top: -25%;
-  left: 37%;
+@media screen and (max-width: 1000px) {
  
-}
-.second_section .section_imageOrange
-{width: 28%;
-position: absolute;
-bottom: 0px;
-right: 0px;
-left: 48%;
-top: 62%;
-}
-
-
-.second_section .section_imagePink{
-  position: absolute;
- width:28%;
- bottom: 0px;
- right: 0px;
- top: 22%;
- left: 80%;
-}
-.second_main .second_section{
-  position: relative;
-}
-
-@media screen and (max-width: 1100px) {
-.second_main .first_section,.second_section{
-    display: inline-block;
-    width:100%;
+  .second_main{
+    flex-direction: column-reverse;
   }
+  
 }
 
