@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Metropolis-Bold", Helvetica; 
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    max-width: 500px;
+    margin: 20px auto;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 3px 10px;
+  }
+  
+  .search-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 14px;
+  }
+  
+  .search-icon {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 5px;
+  }
+  
+  /* Adjust the icon size for responsiveness */
+  .search-icon svg {
+    width: 24px;
+    height: 24px;
+  }
+  
+  /* Responsive styles */
+  @media only screen and (max-width: 600px) {
+    .search-container {
+      max-width: 80%;
+    }
+  }
+.filter-options{
+   display: none;
+}
+.search-top .top-searchheading{
+    color: #0A2569;
+    font-weight: 500;
+    margin-top: 80px;
+}
+.search-secondmain h3{
+  color:#ED1C24;
+  font-weight: 500;
+
+}
+.search-secondmain ul li{
+    list-style: none;
+    text-decoration: none;
+}
+
+.search-filter .select-btn{
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-filter.open ul{
+  display: block;
+}
+
+
+
+/* product card */
+
+.productCard-main .product-card .product-maincard .product-image img{
+  max-width: 100%;
+  object-fit: contain;
+  height: 220px;
+}
+.productCard-main .product-card .product-maincard .product-image{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  background: #E9E9E9;
+}
+.productCard-main .product-card .product-maincard .product-image .product-offer{
+  width: 100%;
+  padding: 4px 6px;
+  color: #fff;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+}
+
+.productCard-main .product-card .product-maincard .product-details .product-name{
+  color: #000;
+font-size: 14px;
+font-weight: 600;
+margin-bottom: 10px;
+}
+.productCard-main .product-card .product-maincard .product-details .product-rating .fa-star{
+color:#8A8A8A;}
+.productCard-main .product-card .product-maincard .product-details .product-rating .checked{
+  color:#ED1C24;
+}
+.productCard-main  .page-no{
+display: flex;
+justify-content: center;
+
+}
+.productCard-main  .page-no .page-card{
+  margin: 0;
+  padding: 8px 15px;
+  border: 1px solid;
+  color: #8A8A8A;
+  border-color: #c5c3c3;
+  cursor: pointer;
+
+}
+.productCard-main  .page-no .page-card:hover{
+  color:#ED1C24;
+  border-color: #ED1C24;
+}
